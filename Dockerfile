@@ -23,7 +23,6 @@
 FROM gcr.io/google-containers/debian-base-amd64:0.1
 
 COPY Gemfile /Gemfile
-COPY anan-owner-6ede213a7039.json /anan.json
 
 # 1. Install & configure dependencies.
 # 2. Install fluentd via ruby.
